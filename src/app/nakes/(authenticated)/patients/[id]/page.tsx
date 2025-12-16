@@ -29,13 +29,13 @@ const childData = {
 function getStatusBadge(status: string) {
     switch (status) {
         case "normal":
-            return <Badge variant="success" size="lg">Gizi Normal</Badge>;
+            return <Badge variant="success">Gizi Normal</Badge>;
         case "kurang":
-            return <Badge variant="warning" size="lg">Gizi Kurang</Badge>;
+            return <Badge variant="warning">Gizi Kurang</Badge>;
         case "buruk":
-            return <Badge variant="danger" size="lg">Gizi Buruk</Badge>;
+            return <Badge variant="danger">Gizi Buruk</Badge>;
         default:
-            return <Badge variant="neutral" size="lg">{status}</Badge>;
+            return <Badge variant="neutral">{status}</Badge>;
     }
 }
 
