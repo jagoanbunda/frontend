@@ -58,7 +58,7 @@ export default function PmtDetailPage({ params }: { params: { id: string } }) {
                         </div>
                     </div>
                     <div className="flex items-center gap-3">
-                        <Badge variant="success" size="lg">PMT Aktif</Badge>
+                        <Badge variant="success">PMT Aktif</Badge>
                         <Link
                             href={`/nakes/patients/${params.id}`}
                             className="text-sm font-medium text-primary hover:underline flex items-center gap-1"
